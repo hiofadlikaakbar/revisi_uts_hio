@@ -44,7 +44,7 @@ class Screen1 extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 40),
               child: Text(
-                'Belajar dimana saja dan kapan saja',
+                'Aplikasi belajar mobile sederhana dan fleksible',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
