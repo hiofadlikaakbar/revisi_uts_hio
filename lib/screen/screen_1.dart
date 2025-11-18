@@ -20,7 +20,10 @@ class Screen1 extends StatelessWidget {
               ),
               child: Padding(
                 padding: const EdgeInsets.all(20),
-                child: Image.asset('images/', fit: BoxFit.contain),
+                child: Image.asset(
+                  'images/learning_one.png',
+                  fit: BoxFit.contain,
+                ),
               ),
             ),
 
