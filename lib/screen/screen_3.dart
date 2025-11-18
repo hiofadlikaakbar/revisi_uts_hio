@@ -29,7 +29,6 @@ class SplashScreen3 extends StatelessWidget {
             ),
           ),
 
-          // 🔹 Konten utama di tengah layar
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -44,7 +43,7 @@ class SplashScreen3 extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.all(20),
                     child: Image.asset(
-                      'images/seblakceker.png',
+                      'images/learning_three.png',
                       fit: BoxFit.contain,
                     ),
                   ),
@@ -53,7 +52,7 @@ class SplashScreen3 extends StatelessWidget {
                 const SizedBox(height: 30),
 
                 const Text(
-                  'Bergabunglah menjadi penyantap SeblakSpicy',
+                  'Belajar Kapan Saja di Mana Saja',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 24,
@@ -67,7 +66,7 @@ class SplashScreen3 extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 40),
                   child: Text(
-                    'Masuk untuk melihat menu-menu yang tertera dalam varian SeblakSpicy',
+                    'Pantau progresmu, ulangi materi kapan pun diperlukan, dan capai tujuan belajarmu dengan cara yang lebih efisien.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 16,
