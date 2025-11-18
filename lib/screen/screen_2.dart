@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screen_1.dart';
+import 'screen_3.dart';
 
 class Screen2 extends StatelessWidget {
   const Screen2({super.key});
@@ -91,34 +92,32 @@ class Screen2 extends StatelessWidget {
 
                 const SizedBox(height: 40),
 
-                // ElevatedButton(
-                //   onPressed: () {
-                //     Navigator.push(
-                //       context,
-                //       MaterialPageRoute(
-                //         builder: (context) => const Screen3(),
-                //       ),
-                //     );
-                //   },
-                //   style: ElevatedButton.styleFrom(
-                //     backgroundColor: Colors.deepPurple,
-                //     padding: const EdgeInsets.symmetric(
-                //       horizontal: 50,
-                //       vertical: 14,
-                //     ),
-                //     shape: RoundedRectangleBorder(
-                //       borderRadius: BorderRadius.circular(30),
-                //     ),
-                //   ),
-                //   child: const Text(
-                //     'Lanjut',
-                //     style: TextStyle(
-                //       fontSize: 18,
-                //       color: Colors.white,
-                //       fontWeight: FontWeight.bold,
-                //     ),
-                //   ),
-                // ),
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Screen3()),
+                    );
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.deepPurple,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 50,
+                      vertical: 14,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+                  child: const Text(
+                    'Lanjut',
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
