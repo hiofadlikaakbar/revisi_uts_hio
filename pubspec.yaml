@@ -1,7 +1,6 @@
 name: uts_revisi_hio
 description: "A new Flutter project."
 publish_to: "none"
-
 version: 1.0.0+1
 
 environment:
@@ -23,8 +22,3 @@ flutter:
   assets:
     - images/learning_one.png
     - images/learning_two.png
-  # fonts:
-  #   - family: Roboto
-  #     fonts:
-  #       - asset: fonts/Roboto-Regular.ttf
-  #         weight: 400
