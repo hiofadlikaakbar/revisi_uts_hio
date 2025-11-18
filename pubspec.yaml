@@ -22,7 +22,7 @@ flutter:
 
   assets:
     - images/learning_one.png
-    - images/learning_one.png
+    - images/learning_two.png
   # fonts:
   #   - family: Roboto
   #     fonts:
