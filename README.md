@@ -1,16 +1,13 @@
-# uts_revisi_hio
+📱 REVISI UTS Flutter — Hio Fadlika Akbar
 
-A new Flutter project.
+NIM: 1123150077 <br>
+Nama: Hio Fadlika Akbar
 
-## Getting Started
+⚙️ Cara Menjalankan Projek
+Pilih file utama (main.dart)
+Jalankan dengan salah satu cara berikut:
+Klik tombol ▶️ Run → Run Without Debugging, atau Ketik perintah berikut di terminal: "flutter run"
 
-This project is a starting point for a Flutter application.
+Tampilan seluruh aplikasi:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Group 35](https://github.com/user-attachments/assets/6438cf95-aef5-4ee0-862b-a2f8d2ec09e2)
