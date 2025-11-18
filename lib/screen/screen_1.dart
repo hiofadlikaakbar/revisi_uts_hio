@@ -28,8 +28,6 @@ class Screen1 extends StatelessWidget {
             ),
 
             const SizedBox(height: 30),
-
-            // 🔸 Teks dengan font Roboto
             const Text(
               'title',
               style: TextStyle(
@@ -39,7 +37,6 @@ class Screen1 extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-
             const SizedBox(height: 20),
 
             // Paragraf
@@ -71,34 +68,32 @@ class Screen1 extends StatelessWidget {
 
             const SizedBox(height: 40),
 
-            // ElevatedButton(
-            //   onPressed: () {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(
-            //         builder: (context) => const Screen2(),
-            //       ),
-            //     );
-            //   },
-            //   style: ElevatedButton.styleFrom(
-            //     backgroundColor: Colors.deepPurple,
-            //     padding: const EdgeInsets.symmetric(
-            //       horizontal: 50,
-            //       vertical: 14,
-            //     ),
-            //     shape: RoundedRectangleBorder(
-            //       borderRadius: BorderRadius.circular(30),
-            //     ),
-            //   ),
-            //   child: const Text(
-            //     'Lanjut',
-            //     style: TextStyle(
-            //       fontSize: 18,
-            //       color: Colors.white,
-            //       fontWeight: FontWeight.bold,
-            //     ),
-            //   ),
-            // ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Screen2()),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.deepPurple,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 50,
+                  vertical: 14,
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30),
+                ),
+              ),
+              child: const Text(
+                'Lanjut',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ],
         ),
       ),
