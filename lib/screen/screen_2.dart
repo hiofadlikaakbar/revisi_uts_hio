@@ -42,17 +42,14 @@ class Screen2 extends StatelessWidget {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.all(20),
-                    child: Image.asset(
-                      'images/seblakkuah.png',
-                      fit: BoxFit.contain,
-                    ),
+                    child: Image.asset('images/', fit: BoxFit.contain),
                   ),
                 ),
 
                 const SizedBox(height: 30),
 
                 const Text(
-                  'Berbagai varian menu seblak ada disini',
+                  'Materi Berkualitas & Interaktif',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 24,
@@ -66,7 +63,7 @@ class Screen2 extends StatelessWidget {
                 const Padding(
                   padding: EdgeInsets.symmetric(horizontal: 40),
                   child: Text(
-                    'Nikmati aneka ragam seblak yang menggugah selera',
+                    'Modul belajar, video, dan latihan soal yang dirancang untuk membantu kamu memahami pelajaran lebih cepat.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 16,
