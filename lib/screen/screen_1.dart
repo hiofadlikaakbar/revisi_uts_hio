@@ -31,6 +31,7 @@ class Screen1 extends StatelessWidget {
             const SizedBox(height: 30),
             const Text(
               'EduPrime aplikasi E-learning pintar',
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 24,
                 color: Colors.black,
