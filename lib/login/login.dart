@@ -28,7 +28,11 @@ class LoginPage extends StatelessWidget {
               children: [
                 Hero(
                   tag: 'logo',
-                  child: Image.asset('images', width: 120, height: 120),
+                  child: Image.asset(
+                    'images/user.png',
+                    width: 120,
+                    height: 120,
+                  ),
                 ),
 
                 const SizedBox(height: 20),
