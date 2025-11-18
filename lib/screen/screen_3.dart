@@ -91,34 +91,34 @@ class SplashScreen3 extends StatelessWidget {
 
                 const SizedBox(height: 40),
 
-                // ElevatedButton(
-                //   onPressed: () {
-                //     Navigator.pushReplacement(
-                //       context,
-                //       MaterialPageRoute(
-                //         builder: (context) => const LoginPage(),
-                //       ),
-                //     );
-                //   },
-                //   style: ElevatedButton.styleFrom(
-                //     backgroundColor: Colors.deepPurple,
-                //     padding: const EdgeInsets.symmetric(
-                //       horizontal: 50,
-                //       vertical: 14,
-                //     ),
-                //     shape: RoundedRectangleBorder(
-                //       borderRadius: BorderRadius.circular(30),
-                //     ),
-                //   ),
-                //   child: const Text(
-                //     'Login',
-                //     style: TextStyle(
-                //       fontSize: 18,
-                //       color: Colors.white,
-                //       fontWeight: FontWeight.bold,
-                //     ),
-                //   ),
-                // ),
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LoginPage(),
+                      ),
+                    );
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.deepPurple,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 50,
+                      vertical: 14,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(
+                      fontSize: 18,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
